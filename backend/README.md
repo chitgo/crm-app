@@ -27,7 +27,7 @@ Copy `.env.example` to `.env`:
 cp .env.example .env
 ```
 
-Edit `.env` with your MySQL credentials and JWT secret:
+Edit `.env` with your MySQL credentials:
 
 ```env
 DATABASE_URL="mysql://root:your_password@localhost:3306/crm_db"
