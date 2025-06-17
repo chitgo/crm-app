@@ -1,124 +1,101 @@
-CRM App
+# 📇 CRM App
 
-A full-stack Customer Relationship Management (CRM) application built with React Native (frontend) and Node.js (backend). The app allows users to manage customers and leads, with features like searching, adding, editing, and deleting leads, user authentication, and a modern UI with animations.
+A full-stack **Customer Relationship Management (CRM)** application built with **React Native (frontend)** and **Node.js (backend)**.  
+The app enables users to manage customers and leads with features such as search, creation, editing, deletion, user authentication, and a modern mobile UI experience with animations.
 
-Overview
+---
 
+## 🧩 Overview
 
+### 🖼️ Frontend
+- Built with **React Native** and **Expo**.
+- Styled using **Tailwind CSS** via `nativewind`.
+- Smooth UI animations using `react-native-reanimated`.
+- Navigation via `@react-navigation/native`.
 
+### 🛠️ Backend
+- Built with **Node.js**, **Express**, and **Prisma**.
+- **MySQL** as the primary database.
+- **JWT-based authentication** and secure password hashing with `bcrypt`.
 
+---
 
-Frontend: A mobile app built with React Native and Expo, featuring a clean UI with Tailwind CSS, animations, and navigation.
+## 📁 Repository Structure
 
+```
+crm-app/
+├── frontend/   → React Native mobile app
+└── backend/    → Node.js REST API server
+```
 
+---
 
-Backend: A Node.js server with Express, Prisma ORM, MySQL database, and JWT authentication.
+## 🚀 Getting Started
 
+1. **Clone the repository**
 
-
-Repository Structure
-
-
-
-
-
-frontend/: React Native mobile app.
-
-
-
-backend/: Node.js server with REST API.
-
-Getting Started
-
-
-
-
-
-Clone the repository:
-
+```bash
 git clone https://github.com/chitgo/crm-app.git
 cd crm-app
+```
 
+2. **Set up the backend**
 
+- Navigate to the `backend/` folder and follow the instructions in [`backend/README.md`](backend/README.md).
 
-Set up the backend:
+3. **Set up the frontend**
 
+- Navigate to the `frontend/` folder and follow the instructions in [`frontend/README.md`](frontend/README.md).
 
+---
 
+## ✅ Features
 
+### 🔷 Frontend
+- View all customers and leads.
+- Add new leads/customers.
+- Edit and delete existing records.
+- Search by name.
+- Secure login/logout flow with **JWT**.
+- Clean, animated UI.
 
-Follow instructions in backend/README.md.
+### 🔶 Backend
+- Full **CRUD API** for customers and leads.
+- **Authentication system** with JWT tokens.
+- **MySQL** database schema managed with **Prisma ORM**.
+- Passwords securely stored using `bcrypt`.
 
+---
 
+## 🛠 Tech Stack
 
-Set up the frontend:
+### 🖼️ Frontend
+- React Native + Expo
+- Tailwind CSS (`nativewind`)
+- React Navigation
+- Axios
+- AsyncStorage
 
+### 🛠 Backend
+- Node.js + Express
+- Prisma ORM + MySQL
+- JWT for auth
+- bcrypt for password encryption
 
+### 🧰 Dev Tools
+- Git & GitHub
+- Nodemon
+- ESLint + Prettier
 
+---
 
+## 📌 Notes
 
-Follow instructions in frontend/README.md.
+- The project is structured for easy scalability and real-world use.
+- Future enhancements can include role-based access control, file uploads, or a web-based dashboard.
 
-Features
+---
 
+## 📬 Contact
 
-
-
-
-Frontend:
-
-
-
-
-
-View, add, edit, and delete customers and leads.
-
-
-
-Search leads by name.
-
-
-
-Modern UI with animations (react-native-reanimated).
-
-
-
-Secure authentication with JWT.
-
-
-
-Backend:
-
-
-
-
-
-REST API for managing customers and leads.
-
-
-
-MySQL database with Prisma ORM.
-
-
-
-User authentication with JWT and bcrypt.
-
-
-
-CRUD operations for customers and leads.
-
-Tech Stack
-
-
-
-
-
-Frontend: React Native, Expo, Tailwind CSS, React Navigation, Axios, AsyncStorage.
-
-
-
-Backend: Node.js, Express, Prisma, MySQL, JWT, bcrypt.
-
-
-
-Tools: Git, GitHub, Nodemon, ESLint.
+Feel free to reach out at **kostas.chitos@gmail.com** if you have any questions or suggestions.
