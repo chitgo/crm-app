@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+
+# Frontend build artifacts
+frontend/android/app/build/
+frontend/ios/build/
+frontend/.expo/
+frontend/web-build/
+frontend/dist/
+
+# Backend Prisma
+backend/prisma/dev.db
+
+# Mobile app artifacts
+*.keystore
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
